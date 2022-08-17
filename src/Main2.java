@@ -3,6 +3,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
+
+//2.
 //Теперь нам нужно реализовать несколько вариантов сортировки данных справочника:
 //Сортировка списка городов по наименованию в алфавитном порядке по убыванию без учета регистра;
 //Сортировка списка городов по федеральному округу и наименованию города внутри каждого федерального округа в алфавитном порядке по убыванию с учетом регистра;
@@ -61,19 +63,19 @@ public class Main2 {
         }
         reader.close();
 
-//        System.out.println(cities);
-//        sortCityByName(cities);
-//        sortCityByNameAndDistrict(cities);
+        sortCityByName(cities);
+        sortCityByNameAndDistrict(cities);
+
     }
 
-    public static void sortCityByName(ArrayList cities){
+    public static void sortCityByName(ArrayList cities) {
         Collections.sort(cities, (Comparator<City>) (o1, o2) -> o1.getName().toLowerCase(Locale.ROOT).compareTo(o2.getName().toLowerCase()));
-        for (Object city : cities){
+        for (Object city : cities) {
             System.out.print(city);
         }
     }
 
-    public static void sortCityByNameAndDistrict(ArrayList cities){
+    public static void sortCityByNameAndDistrict(ArrayList cities) {
         Collections.sort(cities, (Comparator<City>) (o1, o2) ->
         {
             int secondSort = o1.getDistrict().compareTo(o2.getDistrict());
@@ -81,11 +83,10 @@ public class Main2 {
                 return secondSort;
             return o1.getName().compareTo(o2.getName());
         });
-        for (Object city : cities){
+        for (Object city : cities) {
             System.out.print(city);
         }
     }
-
 }
 
 
