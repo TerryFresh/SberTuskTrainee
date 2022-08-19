@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df198175-010b-4f8a-b7f9-957254d8ed65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Java/JavaProject/SberTuskTrainee",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/JavaProject/SberTuskTrainee&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main3">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main1" />
@@ -115,7 +112,8 @@
       <workItem from="1660605922777" duration="9771000" />
       <workItem from="1660625473542" duration="360000" />
       <workItem from="1660625968077" duration="3788000" />
-      <workItem from="1660694099741" duration="3290000" />
+      <workItem from="1660694099741" duration="4337000" />
+      <workItem from="1660873472333" duration="625000" />
     </task>
     <servers />
   </component>
